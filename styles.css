@@ -69,7 +69,7 @@ body {
 .randombox {
   width: 100%;
   height: 300px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   background-color: white;
   text-align: center;
   display: flex;
@@ -78,6 +78,7 @@ body {
   align-items: center;
 }
 .randombox h1 {
+  margin: 30px;
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
@@ -114,9 +115,23 @@ body {
 
 .testimonialbox {
   background-color: #e5e7eb;
-  height: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
-
+.testimonialtext {
+  width: 60%;
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+  text-align: left;
+}
+.testimonialtext b {
+  display: block;
+  text-align: right;
+  margin: 10px;
+}
 .actioncontainer {
   width: 100%;
   background-color: white;
@@ -129,11 +144,41 @@ body {
 .actionbox {
   background-color: #3882f6;
   border-radius: 10px;
-  width: 80%;
+  width: 60%;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 10px;
 }
 
+.actioncontent {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.actiontext h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.actionbutton {
+  border: 3px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.actionbutton:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
 .footer {
   width: 100%;
   height: 100px;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+  line-height: 100px;
 }
