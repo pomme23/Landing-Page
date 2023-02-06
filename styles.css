@@ -1,7 +1,13 @@
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  background-color: #1f2937;
+  font-family: "Raleway", sans-serif;
+  background: rgb(206, 103, 246);
+  background: radial-gradient(
+    circle,
+    rgba(206, 103, 246, 1) 0%,
+    rgba(122, 55, 210, 1) 59%,
+    rgba(88, 17, 131, 1) 100%
+  );
 }
 
 .headertop {
@@ -21,6 +27,7 @@ body {
 .headerlogo {
   font-size: 24px;
   font-weight: 700;
+  text-align: center;
 }
 
 .headerlink1,
@@ -35,6 +42,11 @@ body {
   margin-left: auto;
 }
 
+.headerlink1:hover,
+.headerlink2:hover,
+.headerlink3:hover {
+  text-shadow: 0 0 12px #fff;
+}
 .mainbox {
   margin: auto;
   width: 80%;
@@ -47,28 +59,36 @@ body {
 }
 
 .awesometext {
-  flex: 1 1 100%;
+  flex: 1 1 90%;
   max-width: fit-content;
+  text-align: justify;
 }
 
+.awesometext h1 {
+  margin: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.36);
+  padding: 8px;
+  border-radius: 18px;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
 .awesomeimage {
   flex: 1 1 100%;
 }
 
 .awesomeimage img {
-  margin-left: 20px;
+  margin-left: 17px;
   max-width: 100%;
   object-fit: cover;
-}
-
-.mainbox h1 {
-  font-size: 48px;
-  font-weight: 900;
+  border-radius: 18px;
 }
 
 .randombox {
   width: 100%;
-  height: 300px;
+  min-height: 300px;
+  height: auto;
   padding-bottom: 30px;
   background-color: white;
   text-align: center;
@@ -82,15 +102,25 @@ body {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  background: rgb(206, 103, 246);
+  background: radial-gradient(
+    circle,
+    rgba(206, 103, 246, 1) 0%,
+    rgba(122, 55, 210, 1) 59%,
+    rgba(88, 17, 131, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .buttoncontainer {
-  width: 70%;
+  width: 80%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 18px;
   color: #1f2937;
+  flex-wrap: wrap;
 }
 .button {
   display: flex;
@@ -104,17 +134,18 @@ body {
 .button3,
 .button4 {
   margin: 10px;
-  width: 140px;
-  height: 140px;
-  border: 3px solid#3882F6;
-  border-radius: 5px;
 }
 
-.buttonimage {
+.button img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .testimonialbox {
-  background-color: #e5e7eb;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.36);
   height: auto;
   display: flex;
   justify-content: center;
@@ -125,7 +156,7 @@ body {
   font-size: 30px;
   font-style: italic;
   color: #1f2937;
-  text-align: left;
+  text-align: justify;
 }
 .testimonialtext b {
   display: block;
@@ -134,7 +165,6 @@ body {
 }
 .actioncontainer {
   width: 100%;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +172,7 @@ body {
 }
 
 .actionbox {
-  background-color: #3882f6;
+  background-color: rgba(31, 41, 55, 0.8);
   border-radius: 10px;
   width: 60%;
   height: 100px;
@@ -172,7 +202,7 @@ body {
 }
 .actionbutton:hover {
   background-color: #e5e7eb;
-  color: #3882f6;
+  color: #1f2937;
 }
 .footer {
   width: 100%;
@@ -181,4 +211,7 @@ body {
   font-size: 18px;
   text-align: center;
   line-height: 100px;
+}
+.footer a {
+  color: #e5e7eb;
 }
