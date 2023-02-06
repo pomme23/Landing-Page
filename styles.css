@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  width: 80%;
+  width: 70%;
   height: 100px;
   color: white;
   display: flex;
@@ -50,7 +50,7 @@ body {
 }
 .mainbox {
   margin: auto;
-  width: 80%;
+  width: 70%;
   height: auto;
   color: white;
   display: flex;
@@ -115,7 +115,7 @@ body {
   -webkit-text-fill-color: transparent;
 }
 .buttoncontainer {
-  width: 80%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -139,8 +139,8 @@ body {
 }
 
 .button img {
-  width: 200px;
-  height: 200px;
+  width: 270px;
+  height: 270px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -154,7 +154,7 @@ body {
   padding: 50px;
 }
 .testimonialtext {
-  width: 60%;
+  width: 70%;
   font-size: 30px;
   font-style: italic;
   color: #1f2937;
@@ -177,7 +177,7 @@ body {
 .actionbox {
   background-color: rgba(31, 41, 55, 0.8);
   border-radius: 10px;
-  width: 60%;
+  width: 70%;
   min-height: 100px;
   height: auto;
   display: flex;
@@ -188,7 +188,7 @@ body {
 }
 
 .actioncontent {
-  width: 60%;
+  width: 70%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -203,6 +203,7 @@ body {
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  margin-left: 10px;
 }
 .actionbutton:hover {
   background-color: #e5e7eb;
