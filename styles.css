@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+}
+.headertop {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.navbar {
+    width: 80%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.headerlogo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.headerlink1,.headerlink2,.headerlink3  {
+font-size: 18px;
+color: #E5E7EB;
+margin-left: 15px;
+}
+.headerlink1 {
+    margin-left: auto;
+}
+.mainbox {
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+.randombox {
+background-color: white;
+    height: 200px;
+}
+.button {
+    border: 1px #3882F6;
+}
+.testimonialbox {
+    background-color: #E5E7EB;
+    height: 200px;
+}
+.actioncontainer {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.actionbox {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 80%;
+    height: 100px;
+}
+.footer {
+ width: 100%;  
+ height: 100px;
+}
